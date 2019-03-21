@@ -71,9 +71,8 @@ def generateText():
     print('Gerando texto para deploy! \n')
     
     text = ''
-    text += salutation+'!\n'+'\n'+'Solicito aplicar no COGNOS de '+env_homol+' o arquivo para deploy '+pkg_name+'.zip . \n'
+    text += salutation+'!\n'+'\n'+'Solicito aplicar no Sistema de '+env_homol+' o arquivo para deploy '+pkg_name+'.zip . \n'
     text +=('Objetivo deste deploy: \n')
     text +=('Subir para '+env_homol+' '+objectives+'.\n\n')
-    text +=('Att. \nLeonardo Galler \nGESIC I - Ramal 5857')
-    
+        
     return text
