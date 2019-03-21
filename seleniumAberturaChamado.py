@@ -11,8 +11,8 @@ from selenium import webdriver
 # Creating the text to deploy
 text = fun1.generateText()
 
-driver = webdriver.Chrome('C:/Users/leonardo.galler/Documents/WebDriver/chromedriver.exe')  # Optional argument, if not specified will search path.
-driver.get('http://atendimento.sicoob.com.br/tas/public/login/form')
+driver = webdriver.Chrome('LOCATION-OF-.EXE-WEBDRIVER-FILE')  # Optional argument, if not specified will search path.
+driver.get('WEB-PAGE-OF-THE-SYSTEM')
 time.sleep(3) # Let the user actually see something!
 
 # Acessando a pagina
